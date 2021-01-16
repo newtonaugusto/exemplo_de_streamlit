@@ -7,6 +7,7 @@ astroid==2.4.2; python_version >= "3.5"
 atomicwrites==1.4.0; python_version >= "3.6" and python_full_version < "3.0.0" and sys_platform == "win32" or sys_platform == "win32" and python_version >= "3.6" and python_full_version >= "3.4.0"
 attrs==20.3.0; (python_version >= "2.7" and python_full_version < "3.0.0") or (python_full_version >= "3.4.0")
 backcall==0.2.0; python_version >= "3.6"
+bandit==1.7.0; python_version >= "3.5"
 base58==2.1.0; python_version >= "3.6"
 bleach==3.2.1; python_version >= "3.6" and python_full_version < "3.0.0" or python_full_version >= "3.5.0" and python_version >= "3.6"
 blinker==1.4; python_version >= "3.6"
@@ -15,7 +16,7 @@ certifi==2020.12.5; python_version >= "3.6" and python_full_version < "3.0.0" or
 cffi==1.14.4; python_version >= "3.6" and python_full_version < "3.0.0" and sys_platform == "linux" and implementation_name === "pypy" or sys_platform == "linux" and python_version >= "3.6" and python_full_version >= "3.6.0" and implementation_name === "pypy"
 chardet==4.0.0; python_version >= "3.6" and python_full_version < "3.0.0" or python_full_version >= "3.5.0" and python_version >= "3.6"
 click==7.1.2; python_version >= "3.6" and python_full_version < "3.0.0" or python_full_version >= "3.5.0" and python_version >= "3.6"
-colorama==0.4.4; python_version >= "3.6" and python_full_version < "3.0.0" and sys_platform == "win32" or sys_platform == "win32" and python_version >= "3.6" and python_full_version >= "3.5.0"
+colorama==0.4.4; python_version >= "3.6" and python_full_version < "3.0.0" and sys_platform == "win32" and platform_system == "Windows" or sys_platform == "win32" and python_version >= "3.6" and python_full_version >= "3.5.0" and platform_system == "Windows"
 cryptography==3.3.1; python_version >= "3.6" and python_full_version < "3.0.0" and sys_platform == "linux" or sys_platform == "linux" and python_version >= "3.6" and python_full_version >= "3.6.0"
 cssselect==1.1.0; python_version >= "2.7" and python_full_version < "3.0.0" or python_full_version >= "3.4.0"
 cssutils==1.0.2
@@ -64,6 +65,7 @@ packaging==20.8; (python_version >= "2.7" and python_full_version < "3.0.0") or 
 pandas==1.1.5; python_full_version >= "3.6.1"
 pandocfilters==1.4.3; python_version >= "3.6" and python_full_version < "3.0.0" or python_full_version >= "3.5.0" and python_version >= "3.6"
 parso==0.8.1; python_version >= "3.6"
+pbr==5.5.1; python_version >= "3.6"
 pexpect==4.8.0; sys_platform != "win32" and python_version >= "3.6"
 pickleshare==0.7.5; python_version >= "3.6"
 pillow==8.1.0; python_version >= "3.6"
@@ -112,6 +114,7 @@ shapely==1.7.1
 six==1.15.0; python_version >= "3.6" and python_full_version < "3.0.0" and sys_platform == "linux" or python_full_version >= "3.6.0" and python_version >= "3.6" and sys_platform == "linux"
 smmap==3.0.4; python_version >= "3.6" and python_full_version < "3.0.0" or python_full_version >= "3.4.0" and python_version >= "3.6"
 sortedcontainers==2.3.0; python_version >= "3.6"
+stevedore==3.3.0; python_version >= "3.6"
 streamlit-ace==0.0.4; python_version >= "3.6"
 streamlit==0.74.1; python_version >= "3.6"
 termcolor==1.1.0
