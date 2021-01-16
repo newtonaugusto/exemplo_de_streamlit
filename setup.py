@@ -189,6 +189,7 @@ extras_require = {
         "jupyter-book>=0.8.3",
         "pytest",
         "pytest-sugar",
+        "flake8",
         "hypothesis<6",
         "psutil",
         "pylint",
@@ -219,6 +220,7 @@ extras_require = {
     "tests": [
         "pytest",
         "pytest-sugar",
+        "flake8",
         "hypothesis<6",
         "psutil",
         "pylint",

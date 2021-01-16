@@ -26,12 +26,13 @@ decorator==4.4.2; python_version >= "3.6" and python_full_version < "3.0.0" or p
 defusedxml==0.6.0; python_version >= "3.6" and python_full_version < "3.0.0" or python_full_version >= "3.5.0" and python_version >= "3.6"
 dicompyler-core==0.5.5
 entrypoints==0.3; python_version >= "3.6" and python_full_version < "3.0.0" or python_full_version >= "3.5.0" and python_version >= "3.6"
+flake8==3.8.4; (python_version >= "2.7" and python_full_version < "3.0.0") or (python_full_version >= "3.4.0")
 gitdb==4.0.5; python_version >= "3.6"
 gitpython==3.1.12; python_version >= "3.6"
 hypothesis==5.49.0; python_version >= "3.6"
 idna==2.10; python_version >= "3.6" and python_full_version < "3.0.0" or python_full_version >= "3.5.0" and python_version >= "3.6"
 imageio==2.9.0; python_version >= "3.5"
-importlib-metadata==3.4.0; python_version < "3.8" and python_version >= "3.6" and (python_version >= "3.6" and python_full_version < "3.0.0" and python_version < "3.8" or python_full_version >= "3.4.0" and python_version >= "3.6" and python_version < "3.8")
+importlib-metadata==3.4.0; python_version < "3.8" and python_version >= "3.6" and (python_version >= "3.6" and python_full_version < "3.0.0" and python_version < "3.8" or python_full_version >= "3.4.0" and python_version < "3.8" and python_version >= "3.6")
 iniconfig==1.1.1; python_version >= "3.6"
 ipykernel==5.4.3; python_version >= "3.6"
 ipython-genutils==0.2.0; python_version >= "3.6"
@@ -52,7 +53,7 @@ lazy-object-proxy==1.4.3; python_version >= "3.5" and python_full_version < "3.0
 lxml==4.6.2; python_version >= "2.7" and python_full_version < "3.0.0" or python_full_version >= "3.5.0"
 markupsafe==1.1.1; python_version >= "3.6" and python_full_version < "3.0.0" or python_full_version >= "3.5.0" and python_version >= "3.6"
 matplotlib==3.3.3; python_version >= "3.6"
-mccabe==0.6.1; python_version >= "3.5"
+mccabe==0.6.1; python_version >= "3.5" and python_full_version < "3.0.0" or python_full_version >= "3.4.0" and python_version >= "3.5"
 mistune==0.8.4; python_version >= "3.6" and python_full_version < "3.0.0" or python_full_version >= "3.5.0" and python_version >= "3.6"
 natsort==7.1.0; python_version >= "3.4"
 nbconvert==5.6.1; python_version >= "3.6" and python_full_version < "3.0.0" or python_full_version >= "3.5.0" and python_version >= "3.6"
@@ -77,9 +78,11 @@ psutil==5.8.0; (python_version >= "2.6" and python_full_version < "3.0.0") or (p
 ptyprocess==0.7.0; sys_platform != "win32" and python_version >= "3.6" and os_name != "nt"
 py==1.10.0; python_version >= "3.6" and python_full_version < "3.0.0" and implementation_name === "pypy" or python_full_version >= "3.4.0" and python_version >= "3.6" and implementation_name === "pypy"
 pyarrow==2.0.0; python_version < "3.9" and python_version >= "3.6"
+pycodestyle==2.6.0; python_version >= "2.7" and python_full_version < "3.0.0" or python_full_version >= "3.4.0"
 pycparser==2.20; python_version >= "3.6" and python_full_version < "3.0.0" and sys_platform == "linux" or sys_platform == "linux" and python_version >= "3.6" and python_full_version >= "3.6.0"
 pydeck==0.5.0; python_version >= "3.6"
 pydicom==2.1.2; python_full_version >= "3.6.1"
+pyflakes==2.2.0; python_version >= "2.7" and python_full_version < "3.0.0" or python_full_version >= "3.4.0"
 pygments==2.7.3; python_version >= "3.6" and python_full_version < "3.0.0" or python_full_version >= "3.5.0" and python_version >= "3.6"
 pylibjpeg-libjpeg==1.1.0; python_version >= "3.6"
 pylinac==2.3.2
