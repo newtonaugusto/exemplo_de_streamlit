@@ -202,6 +202,7 @@ extras_require = {
         "doc8",
         "readme-renderer",
     ],
+    'dev:sys_platform == "linux"': ["pytype"],
     "dicom": ["pynetdicom", "pylibjpeg-libjpeg", "pydicom>=2.0.0"],
     "docs": [
         "sphinx-argparse",
@@ -226,6 +227,7 @@ extras_require = {
         "pytest-rerunfailures",
         "python_dateutil",
     ],
+    'tests:sys_platform == "linux"': ["pytype"],
     "user": [
         "tqdm",
         "attrs",
